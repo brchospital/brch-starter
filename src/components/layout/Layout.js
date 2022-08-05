@@ -1,13 +1,10 @@
-import { Link } from "react-router-dom";
+import { Header } from "../header";
 
 export function Layout({ children }) {
   return (
     <div className="App">
       <div className="header">
-        <ul>
-            <li><Link to="/">home</Link></li>
-            <li><Link to="/about">About</Link></li>
-        </ul>
+        <Header />
       </div>
       <div className="content">{children}</div>
       <div className="footer">
