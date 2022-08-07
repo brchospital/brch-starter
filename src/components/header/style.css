@@ -1,168 +1,113 @@
-.navbar {
-  background-color: #fff !important;
+/* NEW HEADER */
+/* LOGO */
+.header-logo {
+  width: 146px;
+  height: 146px;
 }
 
-.address-list {
-  padding-left: 0px !important;
-}
-
+/* ADDRESSES */
 .address-item {
-  list-style-type: none;
-  color: #1b3a98;
-  padding-bottom: 7px;
-  cursor: auto;
+  font-family: "DejaVu Sans", sans-serif;
+  color: #1b3a98 !important;
 }
 
-.navigation-item {
-  color: #1b3a98;
-}
-
-.form-button {
+/* BOOK A VISIT BUTTON */
+.btn-book-visit {
   background-color: #1b3a98;
-  color: #fff;
+  color: white;
+  border: none;
+  font-family: "DejaVu Sans", sans-serif;
 }
 
-/*---------------MEDIA QUERY SECTION---------------*/
-@media (max-width: 320px) {
-  .header-container {
-    max-width: 90% !important;
-    padding: 0px !important;
-  }
-
-  .search-form {
-    width: 100%;
-    height: 36px;
-  }
-
-  .form-button {
-    height: 57px;
-    margin-top: -10px;
-  }
+/* PAGES */
+.pages {
+  float: right;
+  margin-top: 15px;
 }
 
-@media (min-width: 321px) and (max-width: 375px) {
-  .header-container {
-    max-width: 90% !important;
-    padding: 0px !important;
-  }
-
-  .search-form {
-    width: 100%;
-    height: 36px;
-  }
-
-  .form-button {
-    height: 57px;
-    margin-top: -10px;
-  }
+.pages-item {
+  font-family: "DejaVu Sans", sans-serif;
+  color: #1b3a98 !important;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
-  .header-container {
-    max-width: 90% !important;
-    padding: 0px !important;
-  }
-
-  .search-form {
-    width: 100%;
-    height: 36px;
-  }
-
-  .form-button {
-    height: 57px;
-    margin-top: -10px;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 991px) {
-  .header-container {
-    max-width: 95% !important;
-    padding: 0px !important;
-  }
-
-  .search-form {
-    width: 100%;
-    height: 36px;
-  }
-
-  .form-button {
-    height: 60px;
-    width: 250px;
-    margin-top: -10px;
+/* MEDIA QUERIES */
+/* Reset Bootstrap responsive */
+@media (min-width: 576px) and (max-width: 991px) {
+  .container {
+    min-width: 100% !important;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-  .header-container {
-    max-width: 95% !important;
-    padding: 0px !important;
+  .header {
+    height: 272px;
   }
 
-  .search-form {
-    width: 100%;
-    height: 36px;
+  .container {
+    min-width: 100% !important;
   }
 
-  .form-button {
-    width: 70%;
+  .search-box {
+    width: 60%;
   }
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
-  .header-container {
-    max-width: 1420px !important;
+  .header {
+    height: 272px;
   }
 
-  .search-form {
-    width: 100%;
-    height: 36px;
+  .container {
+    min-width: 100% !important;
   }
 
-  .form-button {
-    width: 80%;
+  .search-box {
+    width: 60%;
   }
 }
 
 @media (min-width: 1441px) and (max-width: 2560px) {
-  .header-container {
-    max-width: 90% !important;
+  .header {
+    height: 272px;
   }
 
-  .navigation-links {
-    float: right;
-    margin-top: 15px !important;
+  .container {
+    min-width: 80% !important;
   }
 
-  .search-form {
-    width: 700px !important;
-    height: 36px;
-  }
-
-  .form-button {
-    width: 266px;
-    height: 53px;
-    margin-top: -10px;
+  .search-box {
+    width: 70%;
   }
 }
 
-@media (min-width: 2561px) {
-  .header-container {
-    max-width: 90% !important;
+/* end of Reset Bootstrap responsive */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .social-icons {
+    flex-direction: row;
   }
 
-  .navigation-links {
-    float: right;
-    margin-top: 15px !important;
+  .pages {
+    float: left;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .social-icons {
+    flex-direction: row;
   }
 
-  .search-form {
-    width: 1300px !important;
-    height: 36px;
+  .pages {
+    float: left;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .social-icons {
+    flex-direction: row;
   }
 
-  .form-button {
-    width: 266px;
-    height: 53px;
-    margin-top: -10px;
+  .pages {
+    float: left;
   }
 }
