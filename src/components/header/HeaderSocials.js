@@ -6,7 +6,7 @@ function HeaderSocials() {
   return (
     <Nav className="social-icons" style={{ marginBottom: "10px" }}>
       <Nav.Item style={{ marginRight: "5px" }}>
-        <Nav.Link>
+        <Nav.Link href="https://www.facebook.com/BatumiRepublicanHospital">
           <BsFacebook size={24} color="#1877F2" />
         </Nav.Link>
       </Nav.Item>

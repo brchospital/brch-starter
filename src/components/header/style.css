@@ -20,6 +20,10 @@
   width: 260px;
 }
 
+.btn-book-visit:hover {
+  background-color: #4963b3;
+}
+
 /* PAGES */
 .pages {
   float: right;
