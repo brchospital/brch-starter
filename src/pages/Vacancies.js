@@ -1,9 +1,9 @@
 import { Layout } from "../components/layout";
 
-export function Home() {
+export function Vacancies() {
   return (
     <Layout>
-      <h1>Home</h1>
+      <h1>Vacancies</h1>
     </Layout>
   );
 }

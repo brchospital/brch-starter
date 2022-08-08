@@ -1,9 +1,9 @@
 import { Layout } from "../components/layout";
 
-export function Home() {
+export function News() {
   return (
     <Layout>
-      <h1>Home</h1>
+      <h1>News</h1>
     </Layout>
   );
 }

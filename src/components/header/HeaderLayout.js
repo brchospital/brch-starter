@@ -1,3 +1,4 @@
+// import { useEffect } from "react";
 // bs import
 import { Container, Navbar, Form, Button, Image } from "react-bootstrap";
 // custom style import
@@ -25,7 +26,7 @@ export function HeaderLayout() {
             {/* SOCIALS */}
             <HeaderSocials />
             {/* END OF SOCIALS */}
-            <Form className="search-formm d-flex">
+            <Form className="search-form d-flex">
               <Form.Control
                 type="search"
                 placeholder="ძებნა"

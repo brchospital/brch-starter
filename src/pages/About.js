@@ -1,6 +1,6 @@
 import { Layout } from "../components/layout";
 
-function About() {
+export function About() {
   return (
     <div>
       <Layout>
@@ -10,4 +10,3 @@ function About() {
   );
 }
 
-export default About;

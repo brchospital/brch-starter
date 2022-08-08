@@ -15,12 +15,12 @@ function HeaderPages() {
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link className="pages-item" href="#news">
+        <Nav.Link className="pages-item" href="/departments">
           დეპარტამანტები
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link className="pages-item" href="#news">
+        <Nav.Link className="pages-item" href="/vacancies">
           ვაკანსიები
         </Nav.Link>
       </Nav.Item>
