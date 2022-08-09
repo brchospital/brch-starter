@@ -8,7 +8,7 @@ export function Layout({ children }) {
       </div>
       <div className="content">{children}</div>
       <div className="footer">
-        <h1>footer</h1>
+        <h1 className="text-white">footer</h1>
       </div>
     </div>
   );

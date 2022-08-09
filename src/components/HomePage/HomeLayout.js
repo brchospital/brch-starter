@@ -1,15 +1,14 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { BrandSection } from "./BrandSection";
+import { HomeContent } from "./HomeContent";
 
 export function HomeLayout() {
   return (
     <Container fluid>
       <Row>
-        <Col>
-          <BrandSection />
+        <Col className="column-reset">
+          <HomeContent />
         </Col>
       </Row>
     </Container>
-
   );
 }
