@@ -18,7 +18,102 @@
   padding-top: 3rem;
 }
 
+.form-title {
+  font-family: "ALK Sanet", sans-serif;
+  color: #1b3a98;
+  font-size: 18px;
+}
+
+.label-title {
+  font-family: "DejaVu Sans", sans-serif;
+  color: #1b3a98;
+}
+
+.PhoneInput input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.bootstrap-input-style {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.submit-button {
+  background-color: #1b3a98;
+  color: #fff;
+  float: right;
+  border: none !important;
+}
+
+.select-color {
+  color: #1b3a98;
+}
+
 /* MEDIA QUERY */
+@media (min-width: 939px) and (max-width: 992px) {
+  .brand-image {
+    width: 100%;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .column-reset {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .brand-image {
+    box-shadow: none;
+  }
+
+  .booking-form {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .column-reset {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .brand-image {
+    box-shadow: none;
+  }
+
+  .booking-form {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3rem;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .column-reset {
     margin: 0px !important;
@@ -30,6 +125,37 @@
     max-height: 100%;
     box-shadow: none;
   }
+
+  .booking-form {
+    width: 100%;
+  }
+
+  .form-title {
+    margin-bottom: 10px;
+  }
 }
 
 /* END OF MEDIA QUERY */
+
+/* -------------------------------------------------------------- */
+
+/* Bootstrap responsive reset */
+
+/* @media (min-width: 481px) and (max-width: 767px) {
+  .column-reset {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .brand-image {
+    box-shadow: none;
+  }
+
+  .booking-form {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3rem;
+  }
+} */
+
+/* end of Bootstrap responsive reset */
