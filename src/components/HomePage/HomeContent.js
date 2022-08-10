@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./style.css";
 
 import { HomeBrand } from "./HomeBrand";
+import { HomeAdvert } from "./HomeAdvert";
 
 export function HomeContent() {
   return (
@@ -11,7 +12,7 @@ export function HomeContent() {
       </Row>
       <Row>
         <Col>
-          <h1>other content</h1>
+          <HomeAdvert />
         </Col>
       </Row>
     </Container>

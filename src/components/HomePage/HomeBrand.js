@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Row, Col, Image, Form, Button, Alert } from "react-bootstrap";
+import { Row, Col, Image, Form, Button } from "react-bootstrap";
 import DatePicker from "react-datepicker";
 import PhoneInput from "react-phone-number-input";
 import "./style.css";
@@ -16,7 +16,6 @@ export function HomeBrand() {
 
   return (
     <>
-      {/* END OF ALERT */}
       <Col className="column-reset" xs={12} sm={12} md={12} lg={6} xl={6}>
         <div>
           <Image src={posterImage} className="brand-image" />
@@ -59,7 +58,7 @@ export function HomeBrand() {
                 <Col xs={12}>
                   <Form.Group className="mt-3 mb-3">
                     <Form.Select className="select-color">
-                      <option isInvalid>აირჩიეთ თავისუფალი დრო</option>
+                      <option>აირჩიეთ თავისუფალი დრო</option>
                       <option value="1">სოლომონ ფუტკარაძე</option>
                       <option value="2">ლევან კონცელიძე</option>
                       <option value="3">სულეიმან კარახასანოვი</option>

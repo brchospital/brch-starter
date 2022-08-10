@@ -72,7 +72,97 @@
   color: #1b3a98;
 }
 
+/* HOME ADVERT COMPONENT */
+.advert-content {
+  /* margin-top: 5rem; */
+}
+
+/* .advert-button {
+  background-color: #1b3a98;
+  color: #fff;
+  border: none !important;
+} */
+
+.advert-title {
+  color: #1b3a98;
+  font-family: "DejaVu Sans", sans-serif;
+}
+
+.card-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1b3a98;
+  }
+
+/* END OF HOME ADVERT COMPONENT */
+
 /* MEDIA QUERY */
+@media (min-width: 2560px) {
+  .column-reset {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .brand-image {
+    width: 100%;
+  }
+
+  .booking-form {
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 8rem;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+  .column-reset {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .brand-image {
+    width: 100%;
+  }
+
+  .booking-form {
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 8rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .column-reset {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .booking-form {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 3rem;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1024px) {
+  .column-reset {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .brand-image {
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .booking-form {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 3rem;
+  }
+}
+
 @media (min-width: 939px) and (max-width: 992px) {
   .brand-image {
     width: 100%;
@@ -93,7 +183,7 @@
   .booking-form {
     width: 100%;
     margin: 0 auto;
-    padding-top: 3rem;
+    padding-top: 5rem;
   }
 }
 
@@ -133,29 +223,31 @@
   .form-title {
     margin-bottom: 10px;
   }
-}
 
-/* END OF MEDIA QUERY */
+  .advert-content {
+    margin-top: 3rem;
+  }
 
-/* -------------------------------------------------------------- */
-
-/* Bootstrap responsive reset */
-
-/* @media (min-width: 481px) and (max-width: 767px) {
-  .column-reset {
-    margin: 0px !important;
+  .advert-title-container {
     padding: 0px !important;
   }
 
-  .brand-image {
-    box-shadow: none;
+  .advert-title-col {
+    padding: 0px !important;
   }
 
-  .booking-form {
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 3rem;
+  .advert-title {
+    font-size: 16px;
   }
-} */
 
-/* end of Bootstrap responsive reset */
+  .home-cards {
+    margin-top: 2rem;
+  }
+
+  .card-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1b3a98;
+  }
+}
