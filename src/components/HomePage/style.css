@@ -77,23 +77,17 @@
   /* margin-top: 5rem; */
 }
 
-/* .advert-button {
-  background-color: #1b3a98;
-  color: #fff;
-  border: none !important;
-} */
-
 .advert-title {
   color: #1b3a98;
   font-family: "DejaVu Sans", sans-serif;
 }
 
 .card-circle {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #1b3a98;
-  }
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
 
 /* END OF HOME ADVERT COMPONENT */
 
@@ -113,6 +107,18 @@
     margin: 0 auto;
     padding-top: 8rem;
   }
+
+  .advert-content {
+    margin-top: 5rem;
+  }
+
+  .advert-title-col {
+    display: flex;
+  }
+
+  .advert-title-container {
+    align-self: center;
+  }
 }
 
 @media (min-width: 1441px) and (max-width: 2560px) {
@@ -130,6 +136,18 @@
     margin: 0 auto;
     padding-top: 8rem;
   }
+
+  .advert-content {
+    margin-top: 5rem;
+  }
+
+  .advert-title-col {
+    display: flex;
+  }
+
+  .advert-title-container {
+    align-self: center;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
@@ -142,6 +160,14 @@
     width: 75%;
     margin: 0 auto;
     padding-top: 3rem;
+  }
+
+  .advert-title-col {
+    display: flex;
+  }
+
+  .advert-title-container {
+    align-self: center;
   }
 }
 
@@ -159,7 +185,15 @@
   .booking-form {
     width: 95%;
     margin: 0 auto;
-    padding-top: 3rem;
+    padding-top: 1rem;
+  }
+
+  .advert-title-col {
+    display: flex;
+  }
+
+  .advert-title-container {
+    align-self: center;
   }
 }
 
@@ -183,7 +217,15 @@
   .booking-form {
     width: 100%;
     margin: 0 auto;
-    padding-top: 5rem;
+    padding-top: 1rem;
+  }
+
+  .advert-title-col {
+    display: flex;
+  }
+
+  .advert-title-container {
+    align-self: center;
   }
 }
 
@@ -201,6 +243,27 @@
     width: 100%;
     margin: 0 auto;
     padding-top: 3rem;
+  }
+
+  .advert-title {
+    font-size: 2rem;
+  }
+
+  .advert-title-container {
+    padding: 0px;
+  }
+
+  .home-cards {
+    padding: 0px;
+  }
+
+  .advert-title-container {
+    padding: 0px;
+    margin-top: 3rem;
+  }
+
+  .advert-title-col {
+    padding: 0px !important;
   }
 }
 
@@ -237,17 +300,14 @@
   }
 
   .advert-title {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .home-cards {
     margin-top: 2rem;
   }
 
-  .card-circle {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #1b3a98;
+  .home-cards {
+    padding: 0px;
   }
 }

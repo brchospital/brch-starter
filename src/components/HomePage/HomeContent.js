@@ -3,6 +3,7 @@ import "./style.css";
 
 import { HomeBrand } from "./HomeBrand";
 import { HomeAdvert } from "./HomeAdvert";
+import { NewsSection } from "./NewsSection";
 
 export function HomeContent() {
   return (
@@ -13,6 +14,11 @@ export function HomeContent() {
       <Row>
         <Col>
           <HomeAdvert />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <NewsSection />
         </Col>
       </Row>
     </Container>
