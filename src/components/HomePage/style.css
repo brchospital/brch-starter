@@ -72,10 +72,21 @@
   color: #1b3a98;
 }
 
+.card-foroter {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* HOME ADVERT COMPONENT */
 .advert-content {
   /* margin-top: 5rem; */
 }
+
+.card-description {
+    font-size: 16px;
+    color: #011143;
+    font-family: "DejaVu Sans", sans-serif;
+  }
 
 .advert-title {
   color: #1b3a98;
@@ -87,6 +98,11 @@
   height: 30px;
   border-radius: 50%;
   margin-bottom: 1rem;
+}
+
+.news-section-title {
+  color: #1b3a98;
+  font-family: "ALK Sanet", sans-serif;
 }
 
 /* END OF HOME ADVERT COMPONENT */
@@ -309,5 +325,20 @@
 
   .home-cards {
     padding: 0px;
+  }
+
+  .news-section-container {
+    padding: 0px;
+  }
+
+  .news-section-title {
+    font-size: 26px;
+    margin-top: 3rem;
+  }
+
+  .news-card {
+    border-top-left-radius: 50px 50px;
+    border-top-right-radius: 50px 50px;
+    width: 100%;
   }
 }
