@@ -81,6 +81,9 @@ export function NewsSection() {
           </Card>
         </Col>
       </Row>
+      <Link to="#0" className="all-news-link">
+        ყველა სიახლე
+      </Link>
     </Container>
   );
 }

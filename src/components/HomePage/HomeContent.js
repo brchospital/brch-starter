@@ -4,6 +4,7 @@ import "./style.css";
 import { HomeBrand } from "./HomeBrand";
 import { HomeAdvert } from "./HomeAdvert";
 import { NewsSection } from "./NewsSection";
+import { HomeBanner } from "./HomeBanner";
 
 export function HomeContent() {
   return (
@@ -19,6 +20,11 @@ export function HomeContent() {
       <Row>
         <Col>
           <NewsSection />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <HomeBanner />
         </Col>
       </Row>
     </Container>

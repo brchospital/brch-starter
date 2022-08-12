@@ -114,7 +114,23 @@
   font-size: 26px;
   margin-top: 3rem;
 }
+
+.all-news-link {
+  color: #1b3a98;
+  font-family: "DejaVu Sans", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 2rem;
+  float: right;
+}
 /* END OF HOME ADVERT COMPONENT */
+
+/* BANNER COMPONENT */
+.banner-container {
+    margin-top: 5rem;
+}
+
+/* END OF BANNER COMPONENT */
 
 /* MEDIA QUERY */
 @media (min-width: 2560px) {
