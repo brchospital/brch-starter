@@ -1,14 +1,29 @@
-import { Container, Row, Col, Image } from "react-bootstrap";
-
-import f from "../../assets/border.png";
+import { Container, Row, Col } from "react-bootstrap";
 
 export function HomeBanner() {
   return (
-    <Container className="banner-container" fluid>
+    <Container className="banner-container">
       <Row>
-        <Col xs={12}>
-          <div>
-            <Image src={f} />
+        <Col className="home-banner-col">
+          <div className="banner-content">
+            <div className="banner-content-info">
+              <div className="banner-item">
+                <h4 className="banner-text banner-info-number">300</h4>
+                <p className="banner-text banner-info-text">პაციენტი</p>
+              </div>
+              <div className="banner-item">
+                <h4 className="banner-text banner-info-number">20</h4>
+                <p className="banner-text banner-info-text">
+                  წლიანი გამოცდილება
+                </p>
+              </div>
+              <div className="banner-item">
+                <h4 className="banner-text banner-info-number">600</h4>
+                <p className="banner-text banner-info-text">
+                  კვალიფიცირებული თანამშრომელი
+                </p>
+              </div>
+            </div>
           </div>
         </Col>
       </Row>

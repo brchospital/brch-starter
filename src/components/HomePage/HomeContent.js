@@ -23,7 +23,7 @@ export function HomeContent() {
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col className="home-content-col">
           <HomeBanner />
         </Col>
       </Row>
