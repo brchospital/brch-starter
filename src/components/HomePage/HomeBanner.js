@@ -12,15 +12,15 @@ export function HomeBanner() {
                 <p className="banner-text banner-info-text">პაციენტი</p>
               </div>
               <div className="banner-item">
-                <h4 className="banner-text banner-info-number">20</h4>
-                <p className="banner-text banner-info-text">
-                  წლიანი გამოცდილება
-                </p>
-              </div>
-              <div className="banner-item">
                 <h4 className="banner-text banner-info-number">600</h4>
                 <p className="banner-text banner-info-text">
                   კვალიფიცირებული თანამშრომელი
+                </p>
+              </div>
+              <div className="banner-item">
+                <h4 className="banner-text banner-info-number">20</h4>
+                <p className="banner-text banner-info-text">
+                  წლიანი გამოცდილება
                 </p>
               </div>
             </div>
