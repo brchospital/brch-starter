@@ -122,11 +122,49 @@
 /* END OF HOME ADVERT COMPONENT */
 
 /* BANNER COMPONENT */
+.banner-row {
+  background-image: url("../../assets/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 3rem;
+  height: 30rem;
+}
+
 .banner-container {
   margin-top: 3rem;
 }
 
+.banner-info-text {
+  border-top: 3px solid #fff;
+}
+
+.banner-text {
+  color: #fff;
+  text-align: center;
+}
+
 /* END OF BANNER COMPONENT */
+
+/* CARD SERVICES  */
+.services-card {
+  margin-top: 5rem;
+}
+
+.second-row {
+  justify-content: center;
+}
+
+.card-width {
+  width: 300px;
+}
+
+.card-route {
+  color: #1B3A98;
+  text-align: center;
+  
+}
+
+/* END CARD SERVICES */
 
 /* MEDIA QUERY */
 @media (min-width: 2560px) {
@@ -166,30 +204,15 @@
     border-top-right-radius: 50px 50px !important;
   }
 
-  .banner-content {
-    height: 30rem;
-    background-image: url("../../assets/banner.png");
-  }
-
-  .banner-content-info {
-    display: flex;
-    padding-top: 18rem;
-  }
-
-  .banner-item {
-    width: calc(100% / 3);
-    text-align: center;
-    padding: 20px;
-  }
-
   .banner-text {
-    font-family: "DejaVu Sans", sans-serif;
-    color: #fff;
-    font-size: 1.5rem;
+    font-size: 2.3rem;
   }
 
-  .banner-info-text {
-    border-top: 3px solid #fff;
+  .banner-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 16rem;
   }
 }
 
@@ -230,42 +253,15 @@
     border-top-right-radius: 50px 50px !important;
   }
 
-  .home-content-col {
-    padding: 0;
-  }
-
-  .banner-content {
-    padding: 0px;
-  }
-
-  .home-banner-col {
-    padding: 0;
-  }
-
-  .banner-content {
-    height: 30rem;
-    background-image: url("../../assets/banner.png");
-  }
-
-  .banner-content-info {
-    display: flex;
-    padding-top: 18rem;
-  }
-
-  .banner-item {
-    width: calc(100% / 3);
-    text-align: center;
-    padding: 20px;
-  }
-
   .banner-text {
-    font-family: "DejaVu Sans", sans-serif;
-    color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
 
-  .banner-info-text {
-    border-top: 3px solid #fff;
+  .banner-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 16rem;
   }
 }
 
@@ -302,38 +298,15 @@
     padding: 0;
   }
 
-  .banner-content {
-    padding: 0px;
-  }
-
-  .home-banner-col {
-    padding: 0;
-  }
-
-  .banner-content {
-    height: 30rem;
-    background-image: url("../../assets/banner.png");
-  }
-
-  .banner-content-info {
-    display: flex;
-    padding-top: 18rem;
-  }
-
-  .banner-item {
-    width: calc(100% / 3);
-    text-align: center;
-    padding: 20px;
-  }
-
   .banner-text {
-    font-family: "DejaVu Sans", sans-serif;
-    color: #fff;
     font-size: 1.5rem;
   }
 
-  .banner-info-text {
-    border-top: 3px solid #fff;
+  .banner-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 16rem;
   }
 }
 
@@ -376,38 +349,15 @@
     padding: 0;
   }
 
-  .banner-content {
-    padding: 0px;
-  }
-
-  .home-banner-col {
-    padding: 0;
-  }
-
-  .banner-content {
-    height: 30rem;
-    background-image: url("../../assets/banner.png");
-  }
-
-  .banner-content-info {
-    display: flex;
-    padding-top: 18rem;
-  }
-
-  .banner-item {
-    width: calc(100% / 3);
-    text-align: center;
-    padding: 20px;
-  }
-
   .banner-text {
-    font-family: "DejaVu Sans", sans-serif;
-    color: #fff;
     font-size: 1.5rem;
   }
 
-  .banner-info-text {
-    border-top: 3px solid #fff;
+  .banner-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 16rem;
   }
 }
 
@@ -456,39 +406,25 @@
     padding: 0px;
   }
 
-  .banner-content {
-    padding: 0px;
-  }
-
-  .home-banner-col {
-    padding: 0;
-  }
-
-  .banner-content {
-    height: 30rem;
-    background-image: url("../../assets/banner.png");
-  }
-
-  .banner-content-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 3rem;
-  }
-
-  .banner-item {
-    text-align: center;
-    margin-top: 2rem;
-  }
-
   .banner-text {
     font-family: "DejaVu Sans", sans-serif;
-    color: #fff;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
   }
 
   .banner-info-text {
-    border-top: 3px solid #fff;
+    color: #fff;
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .banner-item {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .spacing {
+    margin-top: 2rem;
   }
 }
 
@@ -543,39 +479,25 @@
     padding: 0px;
   }
 
-  .banner-content {
-    padding: 0px;
-  }
-
-  .home-banner-col {
-    padding: 0;
-  }
-
-  .banner-content {
-    height: 30rem;
-    background-image: url("../../assets/banner.png");
-  }
-
-  .banner-content-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 3rem;
-  }
-
-  .banner-item {
-    text-align: center;
-    margin-top: 2rem;
-  }
-
   .banner-text {
     font-family: "DejaVu Sans", sans-serif;
-    color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .banner-info-text {
-    border-top: 3px solid #fff;
+    color: #fff;
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .banner-item {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .spacing {
+    margin-top: 3rem;
   }
 }
 
@@ -637,38 +559,24 @@
     padding: 0px;
   }
 
-  .banner-content {
-    padding: 0px;
-  }
-
-  .home-banner-col {
-    padding: 0;
-  }
-
-  .banner-content {
-    height: 30rem;
-    background-image: url("../../assets/banner.png");
-  }
-
-  .banner-content-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 3rem;
-  }
-
-  .banner-item {
-    text-align: center;
-    margin-top: 2rem;
-  }
-
   .banner-text {
     font-family: "DejaVu Sans", sans-serif;
-    color: #fff;
-    font-size: 20px;
+    font-size: 1.4rem;
   }
 
   .banner-info-text {
-    border-top: 3px solid #fff;
+    color: #fff;
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .banner-item {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .spacing {
+    margin-top: 3rem;
   }
 }

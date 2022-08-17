@@ -23,9 +23,8 @@ export function HomeContent() {
           <NewsSection />
         </Col>
       </Row>
-      {/* remove container from banner */}
-      <Row>
-        <Col className="home-content-col">
+      <Row className="banner-row">
+        <Col>
           <HomeBanner />
         </Col>
       </Row>
