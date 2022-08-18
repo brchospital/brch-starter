@@ -627,6 +627,10 @@
   .smart-dvc-version-services {
     display: none;
   }
+
+  .desktop-version-services {
+    margin-top: 3rem;
+  }
 }
 
 /* END OF RSPONSIVE VIEW */
