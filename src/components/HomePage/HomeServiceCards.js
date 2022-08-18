@@ -1,130 +1,62 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 import cardiology from "../../assets/cardiology.png";
+import allergology from "../../assets/allergology.png";
+import oncology from "../../assets/oncology.png";
+import pediatrician from "../../assets/pediatrician.png";
+import radiology from "../../assets/radiology.png";
 
 export function HomeServiceCards() {
   return (
     <div>
-      <Container>
-        <Row>
-          <Col xs={12} sm={12} md={12} lg={6} xl={6}>
-            <div style={{ backgroundColor: "red" }}>
-              <h2>sdsadadasdsadasdsadasdas</h2>
-              <p>sdsaufduwefge9fhwef97wegfewf</p>
-            </div>
-          </Col>
-          <Col>
-            <div
-              style={{
-                width: "300px",
-                height: "30px",
-                backgroundColor: "brown",
-              }}
-            ></div>
-          </Col>
-          <Col>
-            <div
-              style={{
-                width: "300px",
-                height: "30px",
-                backgroundColor: "brown",
-              }}
-            ></div>
-          </Col>
-          <Col>
-            <div
-              style={{
-                width: "300px",
-                height: "30px",
-                backgroundColor: "brown",
-              }}
-            ></div>
-          </Col>
-          <Col>
-            <div
-              style={{
-                width: "300px",
-                height: "30px",
-                backgroundColor: "brown",
-              }}
-            ></div>
-          </Col>
-          <Col>
-            <div
-              style={{
-                width: "300px",
-                height: "30px",
-                backgroundColor: "brown",
-              }}
-            ></div>
-          </Col>
-          <Col>
-            <div
-              style={{
-                width: "300px",
-                height: "30px",
-                backgroundColor: "brown",
-              }}
-            ></div>
-          </Col>
-        </Row>
-        {/* <div>
-          <h6>sdsasdaswqewqrwq</h6>
-          <p>sdadwqrwregertgre</p>
-        </div>
-        <div class="scrolling-wrapper">
-          <div class="card">
-            <h2>Card</h2>
+      <Container className="smart-dvc-version-services">
+        <Col xs={12} sm={8} md={8}>
+          <div className="smart-dvc-container">
+            <h1 className="smart-dvc-title">სამედიცინო მომსახურება</h1>
+            <p className="smart-dvc-description">
+              აქ იქნება რაიმე ტექსტი, რომელიც გასცემს კითხვაზე პასუხს რატომ
+              ბათუმის რესპუბლიკური საავადმყოფო აქ იქნება რაიმე ტექსტი აქ იქნება
+              რაიმე ტექსტი, რომელიც გასცემს კითხვაზე
+            </p>
           </div>
-          <div class="card">
-            <h2>Card</h2>
+        </Col>
+        <Col xs={12} sm={12} md={12}>
+          <div class="scrolling-wrapper">
+            <Card className="smart-dvc-card">
+              <Card.Img variant="top" src={cardiology} />
+              <Card.Body>
+                <Card.Title className="text-title-text">კარდიოლოგია</Card.Title>
+              </Card.Body>
+            </Card>
+            <Card className="smart-dvc-card">
+              <Card.Img variant="top" src={radiology} />
+              <Card.Body>
+                <Card.Title className="text-title-text">რადიოლოგია</Card.Title>
+              </Card.Body>
+            </Card>
+            <Card className="smart-dvc-card">
+              <Card.Img variant="top" src={pediatrician} />
+              <Card.Body>
+                <Card.Title className="text-title-text">პედიატრია</Card.Title>
+              </Card.Body>
+            </Card>
+            <Card className="smart-dvc-card">
+              <Card.Img variant="top" src={oncology} />
+              <Card.Body>
+                <Card.Title className="text-title-text">ონკოლოგია</Card.Title>
+              </Card.Body>
+            </Card>
+            <Card className="smart-dvc-card">
+              <Card.Img variant="top" src={allergology} />
+              <Card.Body>
+                <Card.Title className="text-title-text">ალერგოლოგია</Card.Title>
+              </Card.Body>
+            </Card>
           </div>
-          <div class="card">
-            <h2>Card</h2>
-          </div>
-          <div class="card">
-            <h2>Card</h2>
-          </div>
-          <div class="card">
-            <h2>Card</h2>
-          </div>
-          <div class="card">
-            <h2>Card</h2>
-          </div>
-        </div> */}
+        </Col>
       </Container>
-    </div>
-  );
-  return (
-    <div className="services-card mt-5">
-      <Container>
-        <Row>
-          <Col xs={12} sm={12} md={12} lg={12} xl={6}>
-            <div>
-              <h4>სერვისები და ფუნქციები</h4>
-              <p>
-                იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა
-                მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
-              </p>
-            </div>
-          </Col>
-          <Col xs={12} sm={12} md={6} lg={6} xl={3}>
-            <Card style={{ width: "300px" }}>
-              <Card.Img variant="top" src={cardiology} />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col xs={12} sm={12} md={6} lg={6} xl={3}>
-            <Card style={{ width: "300px" }}>
-              <Card.Img variant="top" src={cardiology} />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
+      <Container className="desktop-version-services">
+        <h1>desktop services</h1>
       </Container>
     </div>
   );

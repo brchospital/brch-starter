@@ -570,24 +570,63 @@
   }
 }
 
-/* SCROLLING */
+/* SHOW DESKTOP AND SMART EVICE VERSIONS */
+@media (min-width: 320px) and (max-width: 1023px) {
+  .desktop-version-services {
+    display: none;
+  }
 
-/* .scrolling-wrapper {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
+  .scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  .smart-dvc-card {
+    display: inline-block;
+    width: 270px; /*add to resp */
+    margin: 0 10px 0 5px;
+    border-top-right-radius: 25px;
+  }
+
+  .scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrolling-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .smart-dvc-container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .smart-dvc-title {
+    color: #1b3a98;
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 4vh; /*add to resp */
+  }
+
+  .smart-dvc-description {
+    color: #011143;
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 3vh; /*add to resp */
+  }
+
+  .text-title-text {
+    text-align: center;
+    font-family: "DejaVu Sans", sans-serif;
+    color: "#1B3A98";
+    font-size: 23px; /*add to resp */
+  }
 }
 
-.card {
-  display: inline-block;
-  width: 300px;
+@media (min-width: 1024px) {
+  .smart-dvc-version-services {
+    display: none;
+  }
 }
 
-.scrolling-wrapper::-webkit-scrollbar {
-  display: none;
-}
-
-.scrolling-wrapper {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-} */
+/* END OF RSPONSIVE VIEW */
