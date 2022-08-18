@@ -4,58 +4,31 @@ import cardiology from "../../assets/cardiology.png";
 
 export function HomeServiceCards() {
   return (
-    <div className="services-card">
+    <div className="services-card mt-5">
       <Container>
-        <Row className="services-card">
-          <Col xl={6}>
+        <Row>
+          <Col xs={12} sm={12} md={12} lg={12} xl={6}>
             <div>
-              <h3>სამედიცინო მომსახურება</h3>
+              <h4>სერვისები და ფუნქციები</h4>
               <p>
                 იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა
                 მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
               </p>
             </div>
           </Col>
-          <Col className="card-width" xl={3}>
-            <Card>
+          <Col xs={12} sm={12} md={6} lg={6} xl={3}>
+            <Card style={{ width: "300px" }}>
               <Card.Img variant="top" src={cardiology} />
               <Card.Body>
-                <Card.Title className="card-route">Card Title</Card.Title>
+                <Card.Title>Card Title</Card.Title>
               </Card.Body>
             </Card>
           </Col>
-          <Col className="card-width" xl={3}>
-            <Card>
+          <Col xs={12} sm={12} md={6} lg={6} xl={3}>
+            <Card style={{ width: "300px" }}>
               <Card.Img variant="top" src={cardiology} />
               <Card.Body>
-                <Card.Title className="card-route">Card Title</Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-        <Row className="services-card second-row">
-          <Col className="card-width" xl={3}></Col>
-          <Col className="card-width" xl={3}>
-            <Card>
-              <Card.Img variant="top" src={cardiology} />
-              <Card.Body>
-                <Card.Title className="card-route">Card Title</Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col className="card-width" xl={3}>
-            <Card>
-              <Card.Img variant="top" src={cardiology} />
-              <Card.Body>
-                <Card.Title className="card-route">Card Title</Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col className="card-width" xl={3}>
-            <Card>
-              <Card.Img variant="top" src={cardiology} />
-              <Card.Body>
-                <Card.Title className="card-route">Card Title</Card.Title>
+                <Card.Title>Card Title</Card.Title>
               </Card.Body>
             </Card>
           </Col>

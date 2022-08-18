@@ -1,4 +1,5 @@
 import { Header } from "../header";
+import { Footer } from "../footer";
 
 export function Layout({ children }) {
   return (
@@ -8,7 +9,7 @@ export function Layout({ children }) {
       </div>
       <div className="content">{children}</div>
       <div className="footer">
-        <h1 className="text-white">footer</h1>
+        <Footer />
       </div>
     </div>
   );

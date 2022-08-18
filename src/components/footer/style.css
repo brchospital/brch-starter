@@ -1,0 +1,14 @@
+.footer-container {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.footer-item {
+    padding-bottom: 1rem;
+}
+
+.footer-text {
+    padding-left: 5px;
+    font-family: "DejaVu Sans", sans-serif;
+    color: #fff;
+}

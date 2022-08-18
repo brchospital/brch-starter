@@ -5,7 +5,7 @@ import { HomeBrand } from "./HomeBrand";
 import { HomeAdvert } from "./HomeAdvert";
 import { NewsSection } from "./NewsSection";
 import { HomeBanner } from "./HomeBanner";
-import { HomeServiceCards } from "./HomeServiceCards";
+// import { HomeServiceCards } from "./HomeServiceCards";
 
 export function HomeContent() {
   return (
@@ -28,9 +28,9 @@ export function HomeContent() {
           <HomeBanner />
         </Col>
       </Row>
-      <Row>
+      {/* <Row>
         <HomeServiceCards />
-      </Row>
+      </Row> */}
     </Container>
   );
 }

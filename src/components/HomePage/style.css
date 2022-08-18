@@ -146,22 +146,13 @@
 /* END OF BANNER COMPONENT */
 
 /* CARD SERVICES  */
-.services-card {
-  margin-top: 5rem;
-}
 
-.second-row {
-  justify-content: center;
-}
 
-.card-width {
-  width: 300px;
-}
 
+/* END OF SERVICES */
 .card-route {
-  color: #1B3A98;
+  color: #1b3a98;
   text-align: center;
-  
 }
 
 /* END CARD SERVICES */
