@@ -147,8 +147,6 @@
 
 /* CARD SERVICES  */
 
-
-
 /* END OF SERVICES */
 .card-route {
   color: #1b3a98;
@@ -571,3 +569,25 @@
     margin-top: 3rem;
   }
 }
+
+/* SCROLLING */
+
+/* .scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.card {
+  display: inline-block;
+  width: 300px;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.scrolling-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} */

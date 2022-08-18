@@ -1,4 +1,4 @@
-.footer-container {
+/* .footer-container {
     margin-top: 3rem;
     margin-bottom: 5rem;
 }
@@ -11,4 +11,23 @@
     padding-left: 5px;
     font-family: "DejaVu Sans", sans-serif;
     color: #fff;
+}
+
+.social-icon {
+    padding-right: 10px;
+} */
+
+.footer-text {
+  padding-left: 20px;
+  font-family: "DejaVu Sans", sans-serif;
+}
+
+.socials-item {
+  padding-right: 15px;
+}
+
+@media (min-width: 992px) {
+  .socials {
+    float: right;
+  }
 }
