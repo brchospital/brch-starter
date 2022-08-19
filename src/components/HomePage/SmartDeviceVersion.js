@@ -20,7 +20,7 @@ export function SmartDeviceVersion() {
         </div>
       </Col>
       <Col xs={12} sm={12} md={12}>
-        <div class="scrolling-wrapper">
+        <div className="scrolling-wrapper">
           <Card className="smart-dvc-card">
             <Card.Img variant="top" src={cardiology} />
             <Card.Body>

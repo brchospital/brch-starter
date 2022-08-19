@@ -631,6 +631,33 @@
   .desktop-version-services {
     margin-top: 3rem;
   }
+
+  .dektop-version-title {
+    font-size: 28px;
+    color: #1b3a98;
+    font-family: "ALK Sanet", sans-serif;
+  }
+
+  .desktop-version-description {
+    font-size: 16px;
+    color: #011143;
+    font-family: "DejaVu Sans", sans-serif;
+  }
+
+  .desktop-version-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .dektop-card-title {
+    text-align: center;
+    font-family: "DejaVu Sans", sans-serif;
+    color: #1b3a98;
+  }
+
+  .desktop-card {
+    border-top-right-radius: 25px;
+  }
 }
 
 /* END OF RSPONSIVE VIEW */
