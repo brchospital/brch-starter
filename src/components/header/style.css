@@ -116,3 +116,62 @@
     float: left;
   }
 }
+
+/* CUSTOM NAVIGATION */
+@media (min-width: 320px) and (max-width: 991px) {
+  .desktop-version-navigation {
+    display: none;
+  }
+
+  .mobile-version-navigation {
+    background-color: #011143;
+    height: 111px;
+  }
+
+  .mobile-navigation-visible {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+  }
+
+  .language-link {
+    text-decoration: none;
+    font-family: "DejaVu Sans", sans-serif;
+    color: #fff;
+  }
+
+  .navigation-routes {
+    margin-top: 20px;
+  }
+
+  .navigation-routes-linls {
+    padding-left: 0px;
+    list-style-type: none;
+  }
+
+  .navigation-route-link {
+    text-decoration: none;
+    color: #fff;
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-navigation-book-btn {
+    margin: 20px 0 30px 0 !important;
+  }
+
+  .mobile-navigation-text {
+    font-family: "ALK Sanet", sans-serif;
+    color: #fff;
+    background-color: #1b3a98;
+    border: none;
+    width: 250px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobile-version-navigation {
+    display: none;
+  }
+}
