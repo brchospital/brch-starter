@@ -126,6 +126,7 @@
   .mobile-version-navigation {
     background-color: #011143;
     height: 111px;
+    transition: height 2s;
   }
 
   .mobile-navigation-visible {
