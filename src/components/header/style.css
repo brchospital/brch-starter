@@ -57,8 +57,17 @@
     display: none;
   }
 
+  .desktop-nav-addresses {
+    list-style-type: none;
+  }
+
+  .ul-text {
+    color: #011143;
+    font-family: "DejaVu Sans", sans-serif;
+  }
+
   /* SIZES WITH QUERY */
-  .desktop-version-navigation {
+  /* .desktop-version-navigation {
     height: 272px;
     display: flex;
     justify-content: space-between;
@@ -84,5 +93,164 @@
 
   .ull-text {
     font-family: "DejaVu Sans", sans-serif;
+  } */
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .desktop-version-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px 30px 20px;
+  }
+
+  .desktop-nav-brand {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop-nav-icon {
+    width: 140px;
+    height: 140px;
+  }
+
+  .desktop-nav-addresses {
+    margin: 0;
+    padding: 0 0 0 5px;
+  }
+
+  .ul-text {
+    font-size: 12px;
+  }
+
+  .desktop-nav-routes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .desktop-social-links {
+    margin-bottom: 10px;
+  }
+
+  .bi-facebook {
+    width: 20px;
+    height: 20px;
+    color: #1877f2;
+  }
+
+  .bi-youtube {
+    color: #ff0000;
+  }
+
+  .bi-instagram {
+    width: 20px;
+    height: 20px;
+    color: #dd4281;
+  }
+
+  .search-input {
+    width: 500px;
+    background: url("../../assets/search.png ") no-repeat scroll;
+    background-size: 27px;
+    padding-left: 27px;
+    font-family: "DejaVu Sans", sans-serif;
+    padding-top: 3px;
+    border: 1px solid rgb(206, 200, 200);
+  }
+
+  .desktop-routing-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .routing-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #1b3a98;
+    font-family: "DejaVu Sans", sans-serif;
+  }
+
+  .link-margin {
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .desktop-version-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 70px 30px 70px;
+  }
+
+  .desktop-nav-brand {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop-nav-icon {
+    width: 140px;
+    height: 140px;
+  }
+
+  .desktop-nav-addresses {
+    margin: 0;
+    padding: 0 0 0 5px;
+  }
+
+  .ul-text {
+    font-size: 16px;
+  }
+
+  .desktop-nav-routes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .desktop-social-links {
+    margin-bottom: 10px;
+  }
+
+  .bi-facebook {
+    width: 20px;
+    height: 20px;
+    color: #1877f2;
+  }
+
+  .bi-youtube {
+    color: #ff0000;
+  }
+
+  .bi-instagram {
+    width: 20px;
+    height: 20px;
+    color: #dd4281;
+  }
+
+  .search-input {
+    background: url("../../assets/search.png ") no-repeat scroll;
+    background-size: 27px;
+    padding-left: 27px;
+    font-family: "DejaVu Sans", sans-serif;
+    padding-top: 3px;
+    border: 1px solid rgb(206, 200, 200);
+  }
+
+  .desktop-routing-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .routing-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #1b3a98;
+    font-family: "DejaVu Sans", sans-serif;
+  }
+
+  .link-margin {
+    margin-right: 15px;
   }
 }

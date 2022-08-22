@@ -10,6 +10,8 @@ import HeaderSocials from "./HeaderSocials";
 import HeaderPages from "./HeaderPages";
 import { NavigationMobile } from "./NavigationMobile";
 
+import { Link } from "react-router-dom";
+
 export function HeaderLayout() {
   return (
     <div className="header-navigation">
@@ -24,13 +26,11 @@ export function HeaderLayout() {
             <li className="ul-text">info@brchospital.ge</li>
           </ul>
         </div>
-        <div>
-          <div>
+        <div className="desktop-nav-routes">
+          <div className="desktop-social-links">
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
                 fill="currentColor"
                 class="bi bi-facebook"
                 viewBox="0 0 16 16"
@@ -41,8 +41,8 @@ export function HeaderLayout() {
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
+                width="34"
+                height="24"
                 fill="currentColor"
                 class="bi bi-youtube"
                 viewBox="0 0 16 16"
@@ -53,8 +53,6 @@ export function HeaderLayout() {
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
                 fill="currentColor"
                 class="bi bi-instagram"
                 viewBox="0 0 16 16"
@@ -63,14 +61,22 @@ export function HeaderLayout() {
               </svg>
             </span>
           </div>
-          <div>
-            <input type="text" />
+          <div className="desktop-search-box">
+            <input className="search-input" type="text" placeholder="ძებნა" />
           </div>
-          <div>
-            <span>ჩვენ შესახებ</span>
-            <span>ვაკანსიები</span>
-            <span>ბლოგი</span>
-            <span>გალერეა</span>
+          <div className="desktop-routing-box">
+            <Link to="#0" className="routing-link link-margin">
+              ჩვენს შესახებ
+            </Link>
+            <Link to="#0" className="routing-link link-margin">
+              სიახლეები
+            </Link>
+            <Link to="#0" className="routing-link link-margin">
+              დეპარტამენტები
+            </Link>
+            <Link to="#0" className="routing-link">
+              ბლოგი
+            </Link>
           </div>
         </div>
       </div>
