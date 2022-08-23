@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import { Image } from "react-bootstrap";
-import logo from "../../assets/brch-logo.png"
+import logo from "../../assets/brch-logo.png";
 
 export function NavigationDesktop() {
   return (
     <div className="desktop-version-navigation">
       <div className="desktop-nav-brand">
-        <Image className="desktop-nav-icon" src={logo} />
+        <Link to="/">
+          <Image className="desktop-nav-icon" src={logo} />
+        </Link>
         <ul className="desktop-nav-addresses">
           <li className="ul-text">{`(+995) 599 95 59 95`}</li>
           <li className="ul-text">ქ.ბათუმი ტბელ აბუსერიძე 2</li>
@@ -53,17 +55,17 @@ export function NavigationDesktop() {
           <input className="search-input" type="text" placeholder="ძებნა" />
         </div>
         <div className="desktop-routing-box">
-          <Link to="#0" className="routing-link link-margin">
+          <Link to="/about" className="routing-link link-margin">
             ჩვენს შესახებ
           </Link>
-          <Link to="#0" className="routing-link link-margin">
+          <Link to="/news" className="routing-link link-margin">
             სიახლეები
           </Link>
-          <Link to="#0" className="routing-link link-margin">
+          <Link to="/departments" className="routing-link link-margin">
             დეპარტამენტები
           </Link>
-          <Link to="#0" className="routing-link">
-            ბლოგი
+          <Link to="/vacancies" className="routing-link">
+            ვაკანსიები
           </Link>
         </div>
       </div>

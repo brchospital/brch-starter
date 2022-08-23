@@ -1,12 +1,12 @@
-import { Layout } from "../components/layout";
+import { Layout } from "../components/Layout";
+import { AboutPage } from "../components/AboutPage";
 
 export function About() {
   return (
     <div>
       <Layout>
-        <h1>about</h1>
+        <AboutPage />
       </Layout>
     </div>
   );
 }
-

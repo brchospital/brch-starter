@@ -11,7 +11,7 @@ export function NavigationMobile() {
     let hvr = document.getElementById("testId");
     countRef.current++;
     if (countRef.current % 2 === 1) {
-      hvr.style.height = "500px";
+      hvr.style.height = "400px";
     } else {
       hvr.style.height = "111px";
     }

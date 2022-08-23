@@ -8,7 +8,7 @@ export function HomeBanner() {
           <div className="banner-content">
             <div className="banner-item spacing">
               <h4 className="banner-text banner-info-number">300</h4>
-              <p className="banner-text banner-info-text">პაციენტი</p>
+              <p className="banner-text banner-info-text">საწოლ ფონდი</p>
             </div>
             <div className="banner-item spacing">
               <h4 className="banner-text banner-info-number">600</h4>

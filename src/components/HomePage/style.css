@@ -104,6 +104,7 @@
 .card-footer-items {
   color: #1b3a98;
   text-decoration: none;
+  
 }
 
 .news-section-title {
@@ -136,6 +137,8 @@
 
 .banner-info-text {
   border-top: 3px solid #fff;
+  font-family: "DejaVu Sans", sans-serif;
+
 }
 
 .banner-text {

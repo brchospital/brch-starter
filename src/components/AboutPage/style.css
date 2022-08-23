@@ -1,0 +1,14 @@
+.about-page-banner-image {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 10px #eee;
+}
+
+.about-page-description {
+  margin-top: 3rem;
+}
+
+.about-page-description-title {
+  font-family: "ALK Sanet", sans-serif;
+}

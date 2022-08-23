@@ -5,16 +5,14 @@ export function HomeCards() {
     <Container className="home-cards">
       <Row>
         <Col sm={12} sx={12} md={12} lg={6} xl={6}>
-          <div className="">
             <div
               className="card-circle"
               style={{ backgroundColor: "#1b3a98" }}
             ></div>
             <p>
               მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა, არამედ მან
-              დღემდე, ელექტრონული ტიპოგრაფიის დრომდეც უცვლელად მოაღწია.
+              დღემდე, ელექტრონული ტიპოგრაფიის დრომდწექექექეწქეწქეც უცვლელად მოაღწია.
             </p>
-          </div>
         </Col>
         <Col sm={12} sx={12} md={12} lg={6} xl={6}>
           <div
