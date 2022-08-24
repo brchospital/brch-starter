@@ -381,7 +381,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
 
   .scrolling-wrapper::-webkit-scrollbar {
