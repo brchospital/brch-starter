@@ -21,5 +21,33 @@
       "thumbnail": "../../assets/news-image-1.png",
       "data": "08.23.2022"
     }
+  ],
+
+  "mediCards": [
+    {
+      "id": 1,
+      "title": "ალერგოლოგია",
+      "src": "./assets/allergology.png"
+    },
+    {
+      "id": 2,
+      "title": "პედიატრია",
+      "src": "./assets/pediatrician.png"
+    },
+    {
+      "id": 3,
+      "title": "რადიოლოგია",
+      "src": "./assets/radiology.png"
+    },
+    {
+      "id": 4,
+      "title": "ონკოლოგია",
+      "src": "./assets/oncology.png"
+    },
+    {
+      "id": 5,
+      "title": "კარდიოლოგია",
+      "src": "./assets/cardiology.png"
+    }
   ]
 }

@@ -1,14 +1,403 @@
-.about-page-banner-image {
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: 0px 10px #eee;
+.text-title-text {
+    text-align: center;
+    font-family: "DejaVu Sans", sans-serif;
+    color: #1B3A98;
 }
 
-.about-page-description {
-  margin-top: 3rem;
+@media (min-width: 320px) and (max-width: 480px) {
+  .about-page-banner-image {
+    display: none;
+  }
+
+  .reset-padding {
+    margin: 0 10px 0 10px;
+  }
+
+  .about-page-description {
+    margin-top: 3rem;
+  }
+
+  .about-page-description-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    margin-bottom: 1rem;
+  }
+
+  .about-page-description {
+    margin-top: 1rem;
+  }
+
+  .medical-services {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .medical-services-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    font-size: 25px;
+  }
+
+  .about-page-description-text {
+    color: #000000;
+    font-family: "DejaVu Sans", sans-serif;
+  }
+
+  .medical-services-cards {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  .scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrolling-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .medical-services-card {
+    width: 300px;
+    display: inline-block;
+    width: 270px; /*add to resp */
+    margin: 0 10px 0 5px;
+    border-top-right-radius: 25px;
+  }
 }
 
-.about-page-description-title {
-  font-family: "ALK Sanet", sans-serif;
+@media (min-width: 481px) and (max-width: 767px) {
+  .about-page-banner-image {
+    display: none;
+  }
+
+  .reset-padding {
+    margin: 0 10px 0 10px;
+  }
+
+  .about-page-description {
+    margin-top: 3rem;
+  }
+
+  .about-page-description-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    margin-bottom: 1rem;
+  }
+
+  .about-page-description {
+    margin-top: 3rem;
+  }
+
+  .medical-services {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .medical-services-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    font-size: 25px;
+  }
+
+  .about-page-description-text {
+    color: #000000;
+    font-family: "DejaVu Sans", sans-serif;
+  }
+
+  .medical-services {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .medical-services-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    font-size: 25px;
+  }
+
+  .about-page-description-text {
+    color: #000000;
+    font-family: "DejaVu Sans", sans-serif;
+  }
+
+  .medical-services-cards {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  .scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrolling-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .medical-services-card {
+    width: 300px;
+    display: inline-block;
+    width: 270px; /*add to resp */
+    margin: 0 10px 0 5px;
+    border-top-right-radius: 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .about-page-banner-image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 10px #eee;
+  }
+
+  .reset-padding {
+    margin: 0 10px 0 10px;
+  }
+
+  .about-page-description {
+    margin-top: 3rem;
+  }
+
+  .about-page-description-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    margin-bottom: 1rem;
+  }
+
+  .about-page-description-text {
+    color: #000000;
+    font-family: "DejaVu Sans", sans-serif;
+  }
+
+  .medical-services {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .medical-services-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    font-size: 25px;
+  }
+
+  .medical-services-cards {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  .scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrolling-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .medical-services-card {
+    width: 300px;
+    display: inline-block;
+    width: 270px; /*add to resp */
+    margin: 0 10px 0 5px;
+    border-top-right-radius: 25px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1024px) {
+  .about-page-banner-image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 10px #eee;
+  }
+
+  .reset-padding {
+    margin: 0 10px 0 10px;
+  }
+
+  .about-page-description {
+    margin-top: 3rem;
+  }
+
+  .about-page-description-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    margin-bottom: 1rem;
+  }
+
+  .about-page-description-text {
+    color: #000000;
+    font-family: "DejaVu Sans", sans-serif;
+  }
+
+  .medical-services {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .medical-services-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    font-size: 25px;
+  }
+
+  .medical-services-cards {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  .scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrolling-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .medical-services-card {
+    width: 300px;
+    display: inline-block;
+    width: 270px; /*add to resp */
+    margin: 0 10px 0 5px;
+    border-top-right-radius: 25px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .about-page-banner-image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 10px #eee;
+  }
+
+  .about-page-description {
+    width: 70%;
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+
+  .about-page-description-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    margin-bottom: 1rem;
+  }
+
+  .about-page-description-text {
+    color: #000000;
+    font-family: "DejaVu Sans", sans-serif;
+  }
+
+  .medical-services {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .medical-services-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    font-size: 25px;
+    align-self: center;
+  }
+
+  .medical-services-cards {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  .scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrolling-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .medical-services-card {
+    width: 300px;
+    display: inline-block;
+    width: 270px;
+    margin: 0 10px 0 5px;
+    border-top-right-radius: 25px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .about-page-banner-image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 10px #eee;
+  }
+
+  .about-page-description {
+    width: 70%;
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+
+  .about-page-description-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    margin-bottom: 1rem;
+  }
+
+  .about-page-description-text {
+    color: #000000;
+    font-family: "DejaVu Sans", sans-serif;
+  }
+
+  .medical-services {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .medical-services-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    font-size: 25px;
+    align-self: center;
+  }
+
+  .medical-services-cards {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-left: 1rem;
+  }
+
+  .scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrolling-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .medical-services-card {
+    width: 300px;
+    display: inline-block;
+    width: 270px;
+    margin: 0 10px 0 5px;
+    border-top-right-radius: 25px;
+  }
 }

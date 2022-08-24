@@ -20,7 +20,9 @@ export function NavigationMobile() {
   return (
     <div className="mobile-version-navigation" id="testId">
       <div className="mobile-navigation-visible">
-        <Image src={smLogo} width={48} height={48} />
+        <Link to="/" className="language-link">
+          <Image src={smLogo} width={48} height={48} />
+        </Link>
         <svg
           width="48"
           height="48"
@@ -51,22 +53,22 @@ export function NavigationMobile() {
         <div className="navigation-routes">
           <ul className="navigation-routes-linls">
             <li>
-              <Link className="navigation-route-link" to="#0">
+              <Link className="navigation-route-link" to="/about">
                 ჩვენ შესახებ
               </Link>
             </li>
             <li>
-              <Link className="navigation-route-link" to="#0">
+              <Link className="navigation-route-link" to="/news">
                 სიახლეები
               </Link>
             </li>
             <li>
-              <Link className="navigation-route-link" to="#0">
+              <Link className="navigation-route-link" to="/departments">
                 დეპარტამენტები
               </Link>
             </li>
             <li>
-              <Link className="navigation-route-link" to="#0">
+              <Link className="navigation-route-link" to="/vacancies">
                 ვაკანსიები
               </Link>
             </li>

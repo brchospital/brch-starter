@@ -1,10 +1,5 @@
 import { Container, Col, Card } from "react-bootstrap";
-
-import cardiology from "../../assets/cardiology.png";
-import allergology from "../../assets/allergology.png";
-import oncology from "../../assets/oncology.png";
-import pediatrician from "../../assets/pediatrician.png";
-import radiology from "../../assets/radiology.png";
+import db from "../../mocks/db.json";
 
 export function SmartDeviceVersion() {
   return (
@@ -21,36 +16,16 @@ export function SmartDeviceVersion() {
       </Col>
       <Col xs={12} sm={12} md={12}>
         <div className="scrolling-wrapper">
-          <Card className="smart-dvc-card">
-            <Card.Img variant="top" src={cardiology} />
-            <Card.Body>
-              <Card.Title className="text-title-text">კარდიოლოგია</Card.Title>
-            </Card.Body>
-          </Card>
-          <Card className="smart-dvc-card">
-            <Card.Img variant="top" src={radiology} />
-            <Card.Body>
-              <Card.Title className="text-title-text">რადიოლოგია</Card.Title>
-            </Card.Body>
-          </Card>
-          <Card className="smart-dvc-card">
-            <Card.Img variant="top" src={pediatrician} />
-            <Card.Body>
-              <Card.Title className="text-title-text">პედიატრია</Card.Title>
-            </Card.Body>
-          </Card>
-          <Card className="smart-dvc-card">
-            <Card.Img variant="top" src={oncology} />
-            <Card.Body>
-              <Card.Title className="text-title-text">ონკოლოგია</Card.Title>
-            </Card.Body>
-          </Card>
-          <Card className="smart-dvc-card">
-            <Card.Img variant="top" src={allergology} />
-            <Card.Body>
-              <Card.Title className="text-title-text">ალერგოლოგია</Card.Title>
-            </Card.Body>
-          </Card>
+          {db.mediCards.map(({ id, title, src }) => {
+            return (
+              <Card className="smart-dvc-card" key={id}>
+                <Card.Img variant="top" src={src} />
+                <Card.Body>
+                  <Card.Title className="text-title-text">{title}</Card.Title>
+                </Card.Body>
+              </Card>
+            );
+          })}
         </div>
       </Col>
     </Container>
