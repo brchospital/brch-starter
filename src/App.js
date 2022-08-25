@@ -6,7 +6,15 @@ import "./style/App.css";
 // 2) sass ცვლადების დამატება
 // 3) eslint
 
-import { Home, About, News, Departments, Vacancies, Admin } from "./pages";
+import {
+  Home,
+  About,
+  News,
+  Departments,
+  Department,
+  Vacancies,
+  Admin,
+} from "./pages";
 
 function App() {
   return (
@@ -15,6 +23,7 @@ function App() {
       <Route path="about" element={<About />} />
       <Route path="news" element={<News />} />
       <Route path="departments" element={<Departments />} />
+      <Route path="department/:id" element={<Department />} />
       <Route path="vacancies" element={<Vacancies />} />
       <Route path="admin" element={<Admin />} />
     </Routes>

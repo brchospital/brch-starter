@@ -1,7 +1,7 @@
-import { Card } from "react-bootstrap";
-import "./style.css";
+import { ScrollCards } from "../ScrollCards";
 import cover from "../../assets/about.png";
 import db from "../../mocks/db.json";
+import "./style.css";
 
 export function AboutPage() {
   return (
@@ -13,11 +13,11 @@ export function AboutPage() {
         <div className="about-page-description">
           <h4 className="about-page-description-title">ჩვენს შესახებ</h4>
           <p className="about-page-description-text">
-            ბათუმის რესპუბლიკური კლინიკური საავადმყოფო მულტიპლათფორმული,
-            რეგიონში მოწინავე კლინიკა გათვლილია 220 საწოლზე. კლინიკა აღჭურვილია
-            ულტრათანამედროვე აპარატურით, კომფორტული პალატებითა და საოპერაციო
-            ბლოკებით. კლინიკა მუშაობს ხარისხის კონტროლის თანამედროვე
-            ინდიკატორების გათვალისწინებით.
+            <b>ბათუმის რესპუბლიკური კლინიკური საავადმყოფო</b> -
+            მულტიპლათფორმული, რეგიონში მოწინავე კლინიკა გათვლილია 220 საწოლზე.
+            კლინიკა აღჭურვილია ულტრათანამედროვე აპარატურით, კომფორტული
+            პალატებითა და საოპერაციო ბლოკებით. კლინიკა მუშაობს ხარისხის
+            კონტროლის თანამედროვე ინდიკატორების გათვალისწინებით.
           </p>
           <p className="about-page-description-text">
             <b>ხარისხი</b> - კლინიკაში მკურნალობა მიმდინარეობს უმაღლესი
@@ -42,12 +42,13 @@ export function AboutPage() {
           <div className="medical-services-cards">
             {db.mediCards.map(({ id, title, src }) => {
               return (
-                <Card className="medical-services-card" key={id}>
-                  <Card.Img variant="top" src={src} />
-                  <Card.Body>
-                    <Card.Title className="text-title-text">{title}</Card.Title>
-                  </Card.Body>
-                </Card>
+                <ScrollCards
+                  key={id}
+                  id={id}
+                  title={title}
+                  src={src}
+                  route={`/department/${id}`}
+                />
               );
             })}
           </div>
