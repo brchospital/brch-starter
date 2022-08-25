@@ -1,7 +1,9 @@
-import { Container, Col, Card } from "react-bootstrap";
+import { Container, Col } from "react-bootstrap";
+import { ScrollCards } from "../ScrollCards";
 import db from "../../mocks/db.json";
 
 export function SmartDeviceVersion() {
+  console.log(db);
   return (
     <Container className="smart-dvc-version-services">
       <Col xs={12} sm={8} md={8}>
@@ -16,15 +18,8 @@ export function SmartDeviceVersion() {
       </Col>
       <Col xs={12} sm={12} md={12}>
         <div className="scrolling-wrapper">
-          {db.mediCards.map(({ id, title, src }) => {
-            return (
-              <Card className="smart-dvc-card" key={id}>
-                <Card.Img variant="top" src={src} />
-                <Card.Body>
-                  <Card.Title className="text-title-text">{title}</Card.Title>
-                </Card.Body>
-              </Card>
-            );
+          {db.departments.map(({ id, title, src }) => {
+            return <ScrollCards key={id} title={title} src={src} route={id} />;
           })}
         </div>
       </Col>

@@ -1,0 +1,183 @@
+@media (min-width: 320px) and (max-width: 992px) {
+  .department-page-banner {
+    display: none;
+  }
+
+  .reset-padding {
+    margin: 0 10px 0 10px;
+  }
+
+  .departments-page-description {
+    margin-top: 3rem;
+  }
+
+  .departments-page-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    margin-bottom: 1rem;
+  }
+
+  .departments-page-text {
+    color: #000000;
+    font-family: "DejaVu Sans", sans-serif;
+    width: 70%;
+  }
+
+  .department-doctors {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .department-doctors-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    font-size: 25px;
+  }
+
+  .department-doctors-cards {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1024px) {
+  .department-page-banner-image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 10px #eee;
+  }
+
+  .reset-padding {
+    margin: 0 10px 0 10px;
+  }
+
+  .departments-page-description {
+    margin-top: 3rem;
+  }
+
+  .departments-page-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    margin-bottom: 1rem;
+  }
+
+  .departments-page-description {
+    color: #000000;
+    font-family: "DejaVu Sans", sans-serif;
+  }
+
+  .medical-services {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .medical-services-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    font-size: 25px;
+  }
+
+  .medical-services-cards {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .department-page-banner-image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 10px #eee;
+  }
+
+  .departments-page-description {
+    width: 70%;
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+
+  .departments-page-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    margin-bottom: 1rem;
+  }
+
+  .departments-page-text {
+    color: #000000;
+    font-family: "DejaVu Sans", sans-serif;
+  }
+
+  .department-doctors {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .department-doctors-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    font-size: 25px;
+    align-self: center;
+  }
+
+  .department-doctors-cards {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1281px) {
+  .department-page-banner-image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 10px #eee;
+  }
+
+  .departments-page-description {
+    width: 70%;
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+
+  .departments-page-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    margin-bottom: 1rem;
+  }
+
+  .departments-page-text {
+    color: #000000;
+    font-family: "DejaVu Sans", sans-serif;
+  }
+
+  .department-doctors {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .department-doctors-title {
+    font-family: "ALK Sanet", sans-serif;
+    color: #1b3a98;
+    font-size: 25px;
+    align-self: center;
+    margin-right: 2rem;
+  }
+
+  .department-doctors-cards {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-left: 2rem;
+  }
+}

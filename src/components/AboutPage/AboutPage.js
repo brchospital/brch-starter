@@ -40,7 +40,7 @@ export function AboutPage() {
         <div className="medical-services">
           <h3 className="medical-services-title">სამედიცინო მომსახურება</h3>
           <div className="medical-services-cards">
-            {db.mediCards.map(({ id, title, src }) => {
+            {db.departments.map(({ id, title, src }) => {
               return (
                 <ScrollCards
                   key={id}

@@ -23,141 +23,54 @@
     }
   ],
 
-  "mediCards": [
+  "departments": [
     {
       "id": 1,
       "title": "ალერგოლოგია",
       "src": "./assets/allergology.png",
-      "department": {
-        "name": "ალერგოლოგია",
-        "description": " იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა",
-        "cover": "./assets/pediatrician-cover.png",
-        "doctors": [
-          {
-            "id": 1,
-            "name": "გიორგი გიორგაძე",
-            "avatar": "doctor image src"
-          },
-          {
-            "id": 2,
-            "name": "გიორგი გიორგაძე",
-            "avatar": "doctor image src"
-          },
-          {
-            "id": 3,
-            "name": "გიორგი გიორგაძე",
-            "avatar": "doctor image src"
-          }
-        ]
-      }
+      "description": "იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა",
+      "cover": "../assets/pediatrician-cover.png",
+      "doctors": [
+        {
+          "id": 1,
+          "name": "გიორგი გიორგაძე",
+          "avatar": "../assets/doctor1.png"
+        },
+        {
+          "id": 2,
+          "name": "გიორგი გიორგაძე",
+          "avatar": "../assets/doctor2.png"
+        },
+        {
+          "id": 3,
+          "name": "გიორგი გიორგაძე",
+          "avatar": "../assets/doctor1.png"
+        }
+      ]
     },
     {
       "id": 2,
       "title": "პედიატრია",
       "src": "./assets/pediatrician.png",
-      "department": {
-        "name": "პედიატრია",
-        "description": " იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა",
-        "cover": "./assets/pediatrician-cover.png",
-        "doctors": [
-          {
-            "id": 1,
-            "name": "გიორგი გიორგაძე",
-            "avatar": "doctor image src"
-          },
-          {
-            "id": 2,
-            "name": "გიორგი გიორგაძე",
-            "avatar": "doctor image src"
-          },
-          {
-            "id": 3,
-            "name": "გიორგი გიორგაძე",
-            "avatar": "doctor image src"
-          }
-        ]
-      }
-    },
-    {
-      "id": 3,
-      "title": "რადიოლოგია",
-      "src": "./assets/radiology.png",
-      "department": {
-        "name": "რადიოლოგია",
-        "description": " იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა",
-        "cover": "./assets/pediatrician-cover.png",
-        "doctors": [
-          {
-            "id": 1,
-            "name": "გიორგი გიორგაძე",
-            "avatar": "doctor image src"
-          },
-          {
-            "id": 2,
-            "name": "გიორგი გიორგაძე",
-            "avatar": "doctor image src"
-          },
-          {
-            "id": 3,
-            "name": "გიორგი გიორგაძე",
-            "avatar": "doctor image src"
-          }
-        ]
-      }
-    },
-    {
-      "id": 4,
-      "title": "ონკოლოგია",
-      "src": "./assets/oncology.png",
-      "department": {
-        "name": "ონკოლოგია",
-        "description": " იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა",
-        "cover": "./assets/pediatrician-cover.png",
-        "doctors": [
-          {
-            "id": 1,
-            "name": "გიორგი გიორგაძე",
-            "avatar": "doctor image src"
-          },
-          {
-            "id": 2,
-            "name": "გიორგი გიორგაძე",
-            "avatar": "doctor image src"
-          },
-          {
-            "id": 3,
-            "name": "გიორგი გიორგაძე",
-            "avatar": "doctor image src"
-          }
-        ]
-      }
-    },
-    {
-      "id": 5,
-      "title": "კარდიოლოგია",
-      "src": "./assets/cardiology.png",
-      "department": {
-        "name": "კარდიოლოგია",
-        "description": " იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა",
-        "cover": "./assets/pediatrician-cover.png",
-        "doctors": [
-          {
-            "id": 1,
-            "name": "გიორგი გიორგაძე",
-            "avatar": "doctor image src"
-          },
-          {
-            "id": 2,
-            "name": "გიორგი გიორგაძე",
-            "avatar": "doctor image src"
-          },
-          {
-            "id": 3,
-            "name": "გიორგი გიორგაძე",
-            "avatar": "doctor image src"
-          }
-        ]
-      }
+      "description": "იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა",
+      "cover": "../assets/pediatrician-cover.png",
+      "doctors": [
+        {
+          "id": 1,
+          "name": "გიორგი გიორგაძე",
+          "avatar": "../assets/doctor1.png"
+        },
+        {
+          "id": 2,
+          "name": "გიორგი გიორგაძე",
+          "avatar": "../assets/doctor2.png"
+        },
+        {
+          "id": 3,
+          "name": "გიორგი გიორგაძე",
+          "avatar": "../assets/doctor1.png"
+        }
+      ]
     }
   ]
 }

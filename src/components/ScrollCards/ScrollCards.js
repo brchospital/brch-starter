@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Card } from "react-bootstrap";
 import "./style.css";
 
-export function ScrollCards({ id, src, title, route }) {
+export function ScrollCards({ id, title, src, route }) {
   return (
     <Card className="medical-services-card">
       <Card.Img variant="top" src={src} />
